@@ -1,0 +1,6 @@
+$(document).ready(function(){
+$(' .box').on('click',' .box-button',function(){
+  $(this).parent().toggleClass('highlight');
+//  console.log('Hello!');
+});
+});
